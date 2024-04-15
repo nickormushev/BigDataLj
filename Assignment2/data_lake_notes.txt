@@ -1,0 +1,35 @@
+Possible reasons:
+1) Faster query times
+2) Data distributed between solutions needed for reports or analytics
+3) Single source of data. Unified way of accessing it 
+
+Implementation tips:
+Automation and AI:
+The process of ingesting data should be automated and have some AI 
+set up to analyse things
+
+Important is governance, privacy, security and maintain metadata
+
+Guidelines on where and how data is collected, make sure they are used
+
+To used data lake data we need to export it to a warehouse/give it format
+
+Benefits:
+AS-IS data format
+Scales2
+Advanced analytics - easier to identify objects of interest but why?
+faster queries for low-cost storage. For high cost data warehouse is better
+
+Minus:
+Hard to manage well
+
+
+Data Bricks Data Lakes
+GCP:
+Pay what you use
+Migration
+BigQuery - fast SQL for big data in GCP
+
+column based storage - this is a cool idea. Maybe you need a feature from a dataset.
+	 Instead of reading all entries and getting the first element the feature is the row.
+	 This is the reason for this
